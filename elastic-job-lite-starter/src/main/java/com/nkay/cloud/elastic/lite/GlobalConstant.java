@@ -1,14 +1,12 @@
-package com.paascloud.elastic.lite;
+package com.nkay.cloud.elastic.lite;
 
 /**
  * The class Global constant.
- * @author paascloud.net@gmail.com
  */
 public class GlobalConstant {
 
 	/**
 	 * The class Symbol.
-	 * @author paascloud.net@gmail.com
 	 */
 	public static final class Symbol {
 		/**

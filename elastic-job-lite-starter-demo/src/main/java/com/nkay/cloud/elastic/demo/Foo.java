@@ -1,4 +1,4 @@
-package com.paascloud.elastic.demo;
+package com.nkay.cloud.elastic.demo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

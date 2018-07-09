@@ -1,10 +1,10 @@
-package com.paascloud.elastic.lite.job;
+package com.nkay.cloud.elastic.lite.job;
 
 import com.dangdang.ddframe.job.api.ShardingContext;
 import com.dangdang.ddframe.job.api.dataflow.DataflowJob;
 import com.google.common.base.Splitter;
-import com.paascloud.elastic.lite.GlobalConstant;
-import com.paascloud.elastic.lite.JobParameter;
+import com.nkay.cloud.elastic.lite.GlobalConstant;
+import com.nkay.cloud.elastic.lite.JobParameter;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 
@@ -15,8 +15,6 @@ import java.util.Map;
  * The class Abstract base dataflow job.
  *
  * @param <T> the type parameter
- *
- * @author paascloud.net @gmail.com
  */
 @Slf4j
 public abstract class AbstractBaseDataflowJob<T> implements DataflowJob<T> {

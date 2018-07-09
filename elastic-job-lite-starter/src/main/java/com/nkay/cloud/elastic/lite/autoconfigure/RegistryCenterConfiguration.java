@@ -1,10 +1,10 @@
-package com.paascloud.elastic.lite.autoconfigure;
+package com.nkay.cloud.elastic.lite.autoconfigure;
 
 import com.dangdang.ddframe.job.api.ElasticJob;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperConfiguration;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter;
-import com.paascloud.elastic.lite.ZookeeperRegistryProperties;
-import com.paascloud.elastic.lite.annotation.ElasticJobConfig;
+import com.nkay.cloud.elastic.lite.ZookeeperRegistryProperties;
+import com.nkay.cloud.elastic.lite.annotation.ElasticJobConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
@@ -15,8 +15,6 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * The class Registry center configuration.
- *
- * @author paascloud.net @gmail.com
  */
 @Configuration
 @ConditionalOnClass(ElasticJob.class)

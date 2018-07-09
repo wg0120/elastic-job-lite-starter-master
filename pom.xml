@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.liuzm.paascloud</groupId>
+  <groupId>com.nkay.cloud</groupId>
   <artifactId>elastic-job-lite-starter-parent</artifactId>
   <version>1.0</version>
   <packaging>pom</packaging>
@@ -33,14 +33,14 @@
 
   <distributionManagement>
     <repository>
-      <id>paascloud-lib-rep</id>
-      <url>http://nexus.paascloud.net/content/repositories/paascloud-lib-rep/</url>
+      <id>nexus-releases</id>
+      <name>Popocloud Release Repository</name>
+      <url>http://192.168.121.14:8081/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <name>User Project Snapshot</name>
-      <url>http://nexus.paascloud.net/content/repositories/snapshots/</url>
-      <uniqueVersion>true</uniqueVersion>
+      <name>Popocloud Snapshot Repository</name>
+      <url>http://192.168.121.14:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 

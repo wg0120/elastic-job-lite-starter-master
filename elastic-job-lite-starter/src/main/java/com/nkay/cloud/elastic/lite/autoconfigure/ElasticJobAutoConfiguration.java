@@ -1,4 +1,4 @@
-package com.paascloud.elastic.lite.autoconfigure;
+package com.nkay.cloud.elastic.lite.autoconfigure;
 
 import com.dangdang.ddframe.job.api.ElasticJob;
 import com.dangdang.ddframe.job.api.JobType;
@@ -17,7 +17,7 @@ import com.dangdang.ddframe.job.lite.api.listener.ElasticJobListener;
 import com.dangdang.ddframe.job.lite.config.LiteJobConfiguration;
 import com.dangdang.ddframe.job.lite.spring.api.SpringJobScheduler;
 import com.dangdang.ddframe.job.reg.zookeeper.ZookeeperRegistryCenter;
-import com.paascloud.elastic.lite.annotation.ElasticJobConfig;
+import com.nkay.cloud.elastic.lite.annotation.ElasticJobConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
@@ -38,8 +38,6 @@ import java.util.Objects;
 
 /**
  * The class Elastic job auto configuration.
- *
- * @author paascloud.net @gmail.com
  */
 @Configuration
 @ConditionalOnExpression("'${elaticjob.zookeeper.server-lists}'.length() > 0")

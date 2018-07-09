@@ -1,12 +1,10 @@
-package com.paascloud.elastic;
+package com.nkay.cloud.elastic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * The class Application.
- *
- * @author paascloud.net @gmail.com
  */
 @SpringBootApplication
 public class Application {

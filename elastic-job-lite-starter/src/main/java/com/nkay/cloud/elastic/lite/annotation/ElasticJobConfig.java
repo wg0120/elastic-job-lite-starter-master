@@ -1,4 +1,4 @@
-package com.paascloud.elastic.lite.annotation;
+package com.nkay.cloud.elastic.lite.annotation;
 
 import com.dangdang.ddframe.job.lite.api.listener.AbstractDistributeOnceElasticJobListener;
 import com.dangdang.ddframe.job.lite.api.listener.ElasticJobListener;
@@ -8,8 +8,6 @@ import java.lang.annotation.*;
 
 /**
  * The interface Elastic job config.
- *
- * @author paascloud.net @gmail.com
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)

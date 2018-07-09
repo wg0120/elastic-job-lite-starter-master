@@ -3,13 +3,13 @@ server:
 paascloud:
   job:
     zookeeper:
-      server-lists: paascloud-provider-zk:2181
+      server-lists: cloud-provider-zk:2181
       namespace: elastic-job-lite-demo
 spring:
   application:
     name: @pom.artifactId@
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_job?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://cloud-db-mysql:3306/cloud_job?characterEncoding=utf8&useSSL=false
     username: root
     password: 123456

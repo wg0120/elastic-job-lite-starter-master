@@ -1,9 +1,9 @@
-package com.paascloud.elastic.demo;
+package com.nkay.cloud.elastic.demo;
 
 import com.google.common.collect.Lists;
-import com.paascloud.elastic.lite.JobParameter;
-import com.paascloud.elastic.lite.annotation.ElasticJobConfig;
-import com.paascloud.elastic.lite.job.AbstractBaseDataflowJob;
+import com.nkay.cloud.elastic.lite.JobParameter;
+import com.nkay.cloud.elastic.lite.annotation.ElasticJobConfig;
+import com.nkay.cloud.elastic.lite.job.AbstractBaseDataflowJob;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -11,8 +11,6 @@ import java.util.List;
 
 /**
  * The class Dataflow job demo.
- *
- * @author paascloud.net @gmail.com
  */
 @ElasticJobConfig(cron = "0/50 * * * * ? ", listener = DataflowJobDemoListener.class, jobParameter = "fetchNum=200,taskType=SENDING_MESSAGE")
 @Component

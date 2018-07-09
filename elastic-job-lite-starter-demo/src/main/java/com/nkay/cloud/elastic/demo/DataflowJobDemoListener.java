@@ -1,4 +1,4 @@
-package com.paascloud.elastic.demo;
+package com.nkay.cloud.elastic.demo;
 
 import com.dangdang.ddframe.job.executor.ShardingContexts;
 import com.dangdang.ddframe.job.lite.api.listener.ElasticJobListener;
@@ -6,8 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * The class Handle user token job listener.
- *
- * @author paascloud.net @gmail.com
  */
 @Slf4j
 public class DataflowJobDemoListener implements ElasticJobListener {

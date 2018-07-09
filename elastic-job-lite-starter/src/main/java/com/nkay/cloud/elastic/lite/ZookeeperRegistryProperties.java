@@ -1,15 +1,13 @@
-package com.paascloud.elastic.lite;
+package com.nkay.cloud.elastic.lite;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * The class Zookeeper registry properties.
- *
- * @author paascloud.net @gmail.com
  */
 @Data
-@ConfigurationProperties(prefix = "paascloud.zk")
+@ConfigurationProperties(prefix = "cloud.zk")
 public class ZookeeperRegistryProperties {
 
     /**

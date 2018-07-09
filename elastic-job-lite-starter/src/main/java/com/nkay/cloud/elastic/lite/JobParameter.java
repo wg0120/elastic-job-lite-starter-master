@@ -1,14 +1,11 @@
-package com.paascloud.elastic.lite;
+package com.nkay.cloud.elastic.lite;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
-
 /**
  * The class Job task model.
- *
- * @author paascloud.net @gmail.com
  */
 @Data
 public class JobParameter implements Serializable {
